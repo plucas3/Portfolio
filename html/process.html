@@ -13,15 +13,27 @@
 
 
 	<div class="container">
+		<div class="navbar-header visible-xs">
+  			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="glyphicon glyphicon-stop"></span>
+				<span class="glyphicon glyphicon-stop"></span>
+				<span class="glyphicon glyphicon-stop"></span>
+  			</button>
+  		<a class="col-xs-4 col-sm-3 col-md-2 navbar-brand" href="index.html"><img src="img/monogram.png" class="col-xs-12 visible-xs" alt="go home"></a>
+	</div>
+	
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<nav class="col-xs-12">
-			<ul>
+			<ul class="nav nav-justified">
 				<li><a href="about.html" id="aboutnav">ABOUT</a></li>
 				<li><a href="work_student.html" id="worknav">WORK</a></li>
-				<li><a href="index.html"><img src="img/monogram.png" alt="go home" id="monogram"></a></li>
+				<li class="hidden-xs"><a href="index.html"><img src="img/monogram.png" alt="go home" id="monogram"></a></li>
 				<li><a href="process.html" id="processnav">PROCESS</a></li>
 				<li><a href="contact.html" id="contactnav">CONTACT</a></li>
 			</ul>
 		</nav>
+	</div>
 	
 		<div class="col-xs-12">
 			<h1>Design Mindset</h1>
@@ -30,37 +42,37 @@
 		
 		<hr>
 		
-		<div class="process col-xs-12">
+		<div class="process col-xs-12 col-sm-6">
 			<h1>Process</h1>
 			
 		<div>	
 			<p>1. Word List</p>
 			<hr>
-			<img src="img/word_list.gif" class="img-responsive" alt="word list" id="word_list">
+			<img src="img/word_list.gif" class="col-xs-12 col-sm-6 img-responsive" alt="word list" id="word_list">
 		</div>
 			
 		<div>	
 			<p>2. Sketch</p>
 			<hr>
-			<img src="img/sketch.jpg" class="img-responsive" alt="sketches" id="sketches">
+			<img src="img/sketch.jpg" class="col-xs-12 col-sm-6 img-responsive" alt="sketches" id="sketches">
 		</div>
 		
 		<div>
 			<p>3. Research</p>
 			<hr>
-			<img src="img/research.jpg" class="img-responsive" alt="research" id="research">
+			<img src="img/research.jpg" class="col-xs-12 col-sm-6 img-responsive" alt="research" id="research">
 		</div>
 		
 		<div>
 			<p>4. Style Exploration</p>
 			<hr>
-			<img src="img/styles.jpg" class="img-responsive" alt="stylistic exploration" id="syles">
+			<img src="img/styles.jpg" class="col-xs-12 col-sm-6 img-responsive" alt="stylistic exploration" id="syles">
 		</div>
 		
 		<div>
 			<p>5. Final Logo</p>
 			<hr>
-			<img src="img/final.jpg" class="img-responsive" alt="final logo" id="final">
+			<img src="img/final.jpg" class="col-xs-12 col-sm-6 img-responsive" alt="final logo" id="final">
 		</div>
 		
 		</div><!--closes process-->
@@ -76,6 +88,6 @@
 	</div><!--closes container-->
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js">
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
