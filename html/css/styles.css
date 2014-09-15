@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+.icon-bar {
+background-color:#44c2ca;
+=======
+header {
+background-color:red;
+}
+
+.save {
+background-color:orange;
+margin-top:5px;
+padding-bottom:2%;
+>>>>>>> FETCH_HEAD
+}
