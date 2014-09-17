@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 .icon-bar {
 background-color:#44c2ca;
 
+=======
+>>>>>>> FETCH_HEAD
 header {
 background-color:red;
 }
@@ -10,5 +13,8 @@ background-color:red;
 background-color:orange;
 margin-top:5px;
 padding-bottom:2%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 }
